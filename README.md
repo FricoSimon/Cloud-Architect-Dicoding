@@ -17,4 +17,7 @@ I implemented the following cloud architecture using Google Cloud Platform (GCP)
 
 ![GCP Architecture](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/gcp%20architecture.png)
 
+### First Step (Create a Project)
+The first step is to create a new project in Google Cloud Platform (GCP) and don't forget to link a billing account to the project.
 
+![Create a Project](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/create%20project.png)
