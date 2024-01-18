@@ -39,3 +39,8 @@ Next is to set auto scaling to the instance group so our MIG (Managed Instance G
 Last is to set load balancer, the purpose is to keep the load balance to all the instances in MIG. The load balancer that I used is Application Load Balancer (HTTP/S) with Global external Application Load Balancer. By effectively distributing traffic and ensuring high availability, the load balancer plays a vital role in the overall performance and reliability of the cloud architecture.
 
 ![Configure Load Balancer](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/configure%20load%20balancer.png)
+
+### Third step (Create Custom Dashboard for Monitoring)
+After everything's done, We have to create a custom dashboard to help us monitor and maintain the cloud project. It's really useful for us, because we can regularly check on the server status, etc. In this custom dashboard, I included four different metrics: instance group size (compute engine), CPU utilization (Mean), Load Balancer request count, and VM instances send byte (sending response to outside). We can add more metrics if needed, but for now it's already enough.
+
+![Create Custom Dashboard](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/create%20custom%20dashboard%20for%20monitoring.png)
