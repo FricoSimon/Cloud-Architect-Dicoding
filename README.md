@@ -44,3 +44,8 @@ Last is to set load balancer, the purpose is to keep the load balance to all the
 After everything's done, We have to create a custom dashboard to help us monitor and maintain the cloud project. It's really useful for us, because we can regularly check on the server status, etc. In this custom dashboard, I included four different metrics: instance group size (compute engine), CPU utilization (Mean), Load Balancer request count, and VM instances send byte (sending response to outside). We can add more metrics if needed, but for now it's already enough.
 
 ![Create Custom Dashboard](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/create%20custom%20dashboard%20for%20monitoring.png)
+
+### Fourth step (Estimate the total cost)
+The final step is to estimate the total cost of the project for a month. Make sure to include all the services and product that are used in the project. For a backup plan, add around 10-15% extra cost in case there's something happen.
+
+![Pricing Calculator](https://github.com/FricoSimon/Cloud-Architect-Dicoding/blob/main/pricing%20calculator%20submission-fricosimon.png)
